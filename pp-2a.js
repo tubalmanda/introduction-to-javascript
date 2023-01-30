@@ -12,6 +12,10 @@ console.log(fruits);
 
 
 // B - Remove 'Orange' and add 'Watermelon'
-var removeAdd = fruits[2];
+/* var removeAdd = fruits[2];
 fruits[2] = 'Watermelon';
+console.log(fruits); */
+
+fruits.pop();
+fruits.push('Watermelon');
 console.log(fruits);
